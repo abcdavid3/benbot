@@ -7,12 +7,10 @@ client.once('ready', () => {
 
 client.on('message', message => {
 	if (message.content.includes('cringe')) {
-		message.channel.send(':rotating_light: WARNING WARNING BEN IS CURRENTLY RAGING PLEASE FIND THE NEAREST SHELTER :rotating_light:', {
-            files: [
-                "./image-to-send.png"
-            ]
-        });
+        message.channel.send('https://i.imgur.com/RfGVTkW.png');
+        message.channel.send(':rotating_light: WARNING WARNING BEN IS CURRENTLY RAGING PLEASE FIND THE NEAREST SHELTER :rotating_light:');
+        message.channel.send('https://i.imgur.com/RfGVTkW.png');
 	}
 });
 
-client.login('NzY1MjQzOTU1NDQ4NTEyNTIz.X4R--A.nSLmMopBQK_r6h65r_b5s02mvEg');
+client.login('NzY1MjQzOTU1NDQ4NTEyNTIz.X4R--A.Lp7Qv0638Czpjh0BWuMz2A-2iOw');

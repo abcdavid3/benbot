@@ -12,5 +12,3 @@ client.on('message', message => {
         message.channel.send('https://i.imgur.com/RfGVTkW.png');
 	}
 });
-
-client.login('NzY1MjQzOTU1NDQ4NTEyNTIz.X4R--A.GvZteEOKpKueDMuW7b7TEDUY59Q');
